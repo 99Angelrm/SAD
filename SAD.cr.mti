@@ -1,0 +1,93 @@
+C:/Quartus/SAD/controller.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package controller_sv_unit
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Quartus/SAD/tb.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Quartus/SAD/sadreg.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/sadreg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sadreg
+
+Top level modules:
+	sadreg
+
+} {} {}} C:/Quartus/SAD/resta.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/resta.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module resta
+
+Top level modules:
+	resta
+
+} {} {}} C:/Quartus/SAD/sad.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/sad.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sad
+
+Top level modules:
+	sad
+
+} {} {}} C:/Quartus/SAD/Sad_fin_tb.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/Sad_fin_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sad_fin_tb
+
+Top level modules:
+	Sad_fin_tb
+
+} {} {}} C:/Quartus/SAD/controller_tb.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/controller_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
+
+} {} {}} C:/Quartus/SAD/i.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/i.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module i
+
+Top level modules:
+	i
+
+} {} {}} C:/Quartus/SAD/mas.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/mas.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mas
+
+Top level modules:
+	mas
+
+} {} {}} C:/Quartus/SAD/sum.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/sum.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sum
+
+Top level modules:
+	sum
+
+} {} {}} C:/Quartus/SAD/ABS.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/ABS.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ABS
+
+Top level modules:
+	ABS
+
+} {} {}} C:/Quartus/SAD/datapath.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Quartus/SAD/cmp.sv {1 {vlog -work work -sv -stats=none C:/Quartus/SAD/cmp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cmp
+
+Top level modules:
+	cmp
+
+} {} {}}

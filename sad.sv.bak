@@ -1,0 +1,11 @@
+module sad(	input go,clk,rst
+				input logic [7:0] A_data,B_data,
+				output AB_rd,
+				output logic [8:0] AB_addr
+				output logic [31:0] sad);
+			logic i_lt_256,i_inc,i_clr, sum_ld, sum_clr, sadreg_ld,sadreg_clr;
+				
+		controller CONTROLLER(.*;
+		datapath DATAPATH(.*);
+
+endmodule

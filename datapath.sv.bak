@@ -1,0 +1,20 @@
+module datapath(	input logic [7:0]A_data,B_data,
+						input i_inc,i_clr,sum_ld,sum_clr,sadreg_ld,sadreg_clr,clk,
+						output logic [31:0] sad,
+						output login [8:0] AB_addr,
+						output i_lt_256);
+						logic [7:0] resta,ABS;
+						logic [31:0] sum_in,sum_out;
+						logic [8:0]AB_addr_temp
+		resta RESTA(.*);
+		ABS abs(.*);
+		mas MAS(.*);
+		sum SUM(.*);
+		sadreg SADREG(.sadreg_in(sum_out).sadreg_out(sad));
+		i I(.AB_addr(AB_addr_temp),.*);
+		cmp CMP(.A(AB_addr_temp),.*);
+		
+		always_comb AB_addr=AB_addr_temp;
+		
+		
+endmodule

@@ -1,0 +1,713 @@
+# Load canceled
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# vsim -gui work.Sad_fin_tb 
+# Start time: 11:15:21 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/AB_rd
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/i_clr
+add wave -position end  sim:/Sad_fin_tb/uut/i_inc
+add wave -position end  sim:/Sad_fin_tb/uut/i_lt_256
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/uut/sadreg_clr
+add wave -position end  sim:/Sad_fin_tb/uut/sadreg_ld
+add wave -position end  sim:/Sad_fin_tb/uut/sum_clr
+add wave -position end  sim:/Sad_fin_tb/uut/sum_ld
+run
+add wave -position end  sim:/Sad_fin_tb/A
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/AB_addr
+add wave -position end  sim:/Sad_fin_tb/AB_rd
+add wave -position end  sim:/Sad_fin_tb/ABS_ref
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+add wave -position end  sim:/Sad_fin_tb/B
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/clk
+add wave -position end  sim:/Sad_fin_tb/go
+add wave -position end  sim:/Sad_fin_tb/i
+add wave -position end  sim:/Sad_fin_tb/memA
+add wave -position end  sim:/Sad_fin_tb/memB
+add wave -position end  sim:/Sad_fin_tb/rst
+add wave -position end  sim:/Sad_fin_tb/sad
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/AB_rd
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+add wave -position end  sim:/Sad_fin_tb/ABS_ref
+add wave -position 9  sim:/Sad_fin_tb/A_ref
+add wave -position 10  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/memA
+add wave -position end  sim:/Sad_fin_tb/memB
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 12:03:00 on Sep 05,2021, Elapsed time: 0:47:39
+# Errors: 0, Warnings: 4
+# vsim -gui work.Sad_fin_tb 
+# Start time: 12:03:00 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/AB_rd
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 12:09:34 on Sep 05,2021, Elapsed time: 0:06:34
+# Errors: 0, Warnings: 4
+# vsim -gui work.Sad_fin_tb 
+# Start time: 12:09:34 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/AB_rd
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Load canceled
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 12:27:53 on Sep 05,2021, Elapsed time: 0:18:19
+# Errors: 0, Warnings: 4
+# vsim -gui work.Sad_fin_tb 
+# Start time: 12:27:53 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/A
+add wave -position end  sim:/Sad_fin_tb/B
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/sad
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 0  sim:/Sad_fin_tb/go
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+add wave -position 1  sim:/Sad_fin_tb/clk
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 13:14:51 on Sep 05,2021, Elapsed time: 0:46:58
+# Errors: 0, Warnings: 4
+# vsim -gui work.Sad_fin_tb 
+# Start time: 13:14:51 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/AB_addr
+add wave -position end  sim:/Sad_fin_tb/uut/AB_rd
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/addr_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+vsim -gui work.controller_tb
+# End time: 13:16:49 on Sep 05,2021, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 3
+# vsim -gui work.controller_tb 
+# Start time: 13:16:49 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.controller_tb
+# Loading work.controller_sv_unit
+# Loading work.controller
+add wave -position end  sim:/controller_tb/utt/AB_rd
+add wave -position end  sim:/controller_tb/utt/clk
+add wave -position end  sim:/controller_tb/utt/go
+add wave -position end  sim:/controller_tb/utt/i_clr
+add wave -position end  sim:/controller_tb/utt/i_inc
+add wave -position end  sim:/controller_tb/utt/i_lt_256
+add wave -position end  sim:/controller_tb/utt/nxtstate
+add wave -position end  sim:/controller_tb/utt/rst
+add wave -position end  sim:/controller_tb/utt/sadreg_clr
+add wave -position end  sim:/controller_tb/utt/sadreg_ld
+add wave -position end  sim:/controller_tb/utt/state
+add wave -position end  sim:/controller_tb/utt/sum_clr
+add wave -position end  sim:/controller_tb/utt/sum_ld
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.controller_tb
+# End time: 13:19:42 on Sep 05,2021, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller_tb 
+# Start time: 13:19:42 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.controller_tb
+# Loading work.controller_sv_unit
+# Loading work.controller
+add wave -position end  sim:/controller_tb/utt/AB_rd
+add wave -position end  sim:/controller_tb/utt/clk
+add wave -position end  sim:/controller_tb/utt/go
+add wave -position end  sim:/controller_tb/utt/i_clr
+add wave -position end  sim:/controller_tb/utt/i_inc
+add wave -position end  sim:/controller_tb/utt/i_lt_256
+add wave -position end  sim:/controller_tb/utt/nxtstate
+add wave -position end  sim:/controller_tb/utt/rst
+add wave -position end  sim:/controller_tb/utt/sadreg_clr
+add wave -position end  sim:/controller_tb/utt/sadreg_ld
+add wave -position end  sim:/controller_tb/utt/state
+add wave -position end  sim:/controller_tb/utt/sum_clr
+add wave -position end  sim:/controller_tb/utt/sum_ld
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.controller_tb
+# End time: 13:21:02 on Sep 05,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller_tb 
+# Start time: 13:21:02 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.controller_tb
+# Loading work.controller_sv_unit
+# Loading work.controller
+add wave -position end  sim:/controller_tb/utt/AB_rd
+add wave -position end  sim:/controller_tb/utt/clk
+add wave -position end  sim:/controller_tb/utt/go
+add wave -position end  sim:/controller_tb/utt/i_clr
+add wave -position end  sim:/controller_tb/utt/i_inc
+add wave -position end  sim:/controller_tb/utt/i_lt_256
+add wave -position end  sim:/controller_tb/utt/nxtstate
+add wave -position end  sim:/controller_tb/utt/rst
+add wave -position end  sim:/controller_tb/utt/sadreg_clr
+add wave -position end  sim:/controller_tb/utt/sadreg_ld
+add wave -position end  sim:/controller_tb/utt/state
+add wave -position end  sim:/controller_tb/utt/sum_clr
+add wave -position end  sim:/controller_tb/utt/sum_ld
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 13:27:15 on Sep 05,2021, Elapsed time: 0:06:13
+# Errors: 0, Warnings: 2
+# vsim -gui work.Sad_fin_tb 
+# Start time: 13:27:15 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 2  sim:/Sad_fin_tb/uut/AB_addr
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ABS.sv was successful.
+# Compile of cmp.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of controller_tb.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of i.sv was successful.
+# Compile of mas.sv was successful.
+# Compile of resta.sv was successful.
+# Compile of sad.sv was successful.
+# Compile of Sad_fin_tb.sv was successful.
+# Compile of sadreg.sv was successful.
+# Compile of sum.sv was successful.
+# Compile of tb.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.Sad_fin_tb
+# End time: 13:42:09 on Sep 05,2021, Elapsed time: 0:14:54
+# Errors: 0, Warnings: 4
+# vsim -gui work.Sad_fin_tb 
+# Start time: 13:42:09 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.Sad_fin_tb
+# Loading work.sad
+# Loading work.controller_sv_unit
+# Loading work.controller
+# Loading work.datapath
+# Loading work.resta
+# Loading work.ABS
+# Loading work.mas
+# Loading work.sum
+# Loading work.sadreg
+# Loading work.i
+# Loading work.cmp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'A_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'B_data'. The port definition is at: C:/Quartus/SAD/sad.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Sad_fin_tb/uut File: C:/Quartus/SAD/Sad_fin_tb.sv Line: 16
+add wave -position end  sim:/Sad_fin_tb/uut/A_data
+add wave -position end  sim:/Sad_fin_tb/uut/B_data
+add wave -position end  sim:/Sad_fin_tb/uut/clk
+add wave -position end  sim:/Sad_fin_tb/uut/go
+add wave -position end  sim:/Sad_fin_tb/uut/rst
+add wave -position end  sim:/Sad_fin_tb/uut/sad
+add wave -position end  sim:/Sad_fin_tb/A_ref
+add wave -position end  sim:/Sad_fin_tb/B_ref
+add wave -position end  sim:/Sad_fin_tb/SAD_ref
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 13:56:48 on Sep 05,2021, Elapsed time: 0:14:39
+# Errors: 0, Warnings: 3
